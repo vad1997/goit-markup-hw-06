@@ -545,6 +545,8 @@ img {
   background-color: var(--green);
 }
 .subscribe-form {
+}
+.subscribe-form-order {
   display: flex;
   align-items: center;
   gap: 24px;
