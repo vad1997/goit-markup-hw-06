@@ -398,6 +398,19 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe-form" action="">
+          <p class="subscribe-title">Subscribe</p>
+          <label class="subscribe-label">
+            <input class="subscribe-input" type="text" placeholder="E-mail" />
+          </label>
+
+          <button class="subscribe-btn" type="submit">
+            Subscribe
+            <svg class="subscribe-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <!-- Modal window -->
@@ -408,7 +421,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <strong>Leave your contacts and we will call you back</strong>
+        <strong class="modal-title">Leave your contacts and we will call you back</strong>
         <form class="order-form" name="order_form">
           <label class="order-form-label" for="user_name">Name</label>
           <div class="order-form-group">
@@ -438,9 +451,15 @@
             name="user_comment"
             id="user_comment"
             rows="6"
+            placeholder="Text input"
           ></textarea>
           <label class="order-form-agreement">
             <input class="order-form-checkbox" type="checkbox" />
+            <span class="custom-checkbox">
+              <svg class="custom-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
             <span class="order-form-desc">
               I accept the terms and conditions of
               <a class="order-form-link" href="">the Privacy Policy</a>
@@ -450,6 +469,7 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
