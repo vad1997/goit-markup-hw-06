@@ -545,7 +545,7 @@ img {
   background-color: var(--green);
 }
 .subscribe-form {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .subscribe-form-order {
   display: flex;
@@ -583,6 +583,7 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--light);
+  border: none;
 }
 .subscribe-btn:hover {
   background: var(--ocean);
